@@ -3,6 +3,5 @@
 cat << EOF
 ---
 default_process_types:
-  var port = process.env.PORT || 1313;
-  web: "./hugo server -p $port"
+  web: "./hugo server -p \$PORT"
 EOF
