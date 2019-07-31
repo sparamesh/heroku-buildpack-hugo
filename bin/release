@@ -3,5 +3,5 @@
 cat << EOF
 ---
 default_process_types:
-  worker: "./hugo server -b https://content-hugo.herokuapp.com/ -p \$PORT"
+  web: "./hugo server -b https://content-hugo.herokuapp.com/ -p \$PORT"
 EOF
