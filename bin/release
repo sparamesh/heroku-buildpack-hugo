@@ -3,5 +3,5 @@
 cat << EOF
 ---
 default_process_types:
-  "./hugo server -p \$PORT"
+web: ./hugo server -p $PORT
 EOF
